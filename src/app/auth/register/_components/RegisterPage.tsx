@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import SignInButton from "@/components/auth/SignInButton";
+// import { Button } from "@/components/ui/button";
+// import { Input } from "@/components/ui/input";
+// import { Label } from "@/components/ui/label";
+// import SignInButton from "@/components/auth/SignInButton";
 import OAuthButtons from "@/components/auth/OAuthButtons";
 
 export function RegisterPage() {
@@ -14,7 +14,7 @@ export function RegisterPage() {
         <div className="mx-auto grid w-[350px] gap-6">
           <div className="grid gap-2 text-center">
             <h1 className="text-3xl font-bold">Sign Up</h1>
-            <p className="text-balance text-muted-foreground">
+            <p className="text-muted-foreground text-balance">
               Use OAuth to sign up for an account
             </p>
           </div>
@@ -55,7 +55,7 @@ export function RegisterPage() {
           </div>
         </div>
       </div>
-      <div className="hidden bg-muted lg:block">
+      <div className="bg-muted hidden lg:block">
         <Image
           src="/placeholder.svg"
           alt="Image"

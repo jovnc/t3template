@@ -1,4 +1,4 @@
-import { signIn, signOut } from "@/auth";
+import { signOut } from "@/auth";
 import React from "react";
 import { Button } from "../ui/button";
 

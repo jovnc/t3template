@@ -4,12 +4,7 @@ import { useState } from "react";
 import { Menu, Package2 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
 
 export default function NavSheet({ isLoggedIn }: { isLoggedIn: boolean }) {

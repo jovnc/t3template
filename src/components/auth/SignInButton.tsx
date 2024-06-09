@@ -2,7 +2,6 @@
 import { Button } from "../ui/button";
 import { FaGithub, FaGoogle } from "react-icons/fa";
 import { login } from "@/actions/auth";
-import { useSearchParams } from "next/navigation";
 
 type Providers = "google" | "github";
 

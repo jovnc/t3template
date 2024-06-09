@@ -2,13 +2,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import SignInButton from "@/components/auth/SignInButton";
+// import { Button } from "@/components/ui/button";
+// import { Input } from "@/components/ui/input";
+// import { Label } from "@/components/ui/label";
+// import SignInButton from "@/components/auth/SignInButton";
 import OAuthButtons from "@/components/auth/OAuthButtons";
 import { useSearchParams } from "next/navigation";
-import { toast } from "sonner";
 import { FormError } from "@/components/form/FormError";
 
 export function SignInPage() {
@@ -24,7 +23,7 @@ export function SignInPage() {
         <div className="mx-auto grid w-[350px] gap-6">
           <div className="grid gap-2 text-center">
             <h1 className="text-3xl font-bold">Login</h1>
-            <p className="text-balance text-muted-foreground">
+            <p className="text-muted-foreground text-balance">
               Login with the following providers
             </p>
           </div>
@@ -64,7 +63,7 @@ export function SignInPage() {
           </div>
         </div>
       </div>
-      <div className="hidden bg-muted lg:block">
+      <div className="bg-muted hidden lg:block">
         <Image
           src="/placeholder.svg"
           alt="Image"
